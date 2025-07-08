@@ -223,6 +223,7 @@ function embedOptionsFromUsermeta(parsedSpec: VisualizationSpec) {
 /**
  * Embed a Vega visualization component in a web page. This function returns a promise.
  *
+ * @alias embed
  * @param el        DOM element in which to place component (DOM node or CSS selector).
  * @param spec      String : A URL string from which to load the Vega specification.
  *                  Object : The Vega/Vega-Lite specification as a parsed JSON object.
